@@ -1,0 +1,18 @@
+import tc.TC;
+
+public class BoucleBissextile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int annee = 0;
+		
+		while (annee >= 0) {
+			TC.print("Entrer une valeur : ");
+			annee = TC.lireInt();
+			Bissextile.affichage(annee);
+			
+		}
+		TC.println("Au revoir.");
+	}
+
+}

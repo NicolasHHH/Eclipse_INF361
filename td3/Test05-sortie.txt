@@ -1,0 +1,9 @@
+-- attend null : 
+null
+-- Conversions : 
+12.45 Euros -> 14.94 Dollars
+23.22 Yuans -> 2.96 Euros
+2.49 Livres -> 22.38 Yuans
+16.32 Bitcoins -> 747284.21 Livres
+13.87 Livres -> 1449.49 Roubles
+0.59 Dollar -> 0.59 Dollar

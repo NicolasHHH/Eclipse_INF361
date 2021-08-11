@@ -1,0 +1,21 @@
+Il y a 4 personnes.
+On a 12 positions pour le pseudo P_0.
+Position initiale : (31,49) heure 04:50.
+Position finale : (40,18) heure 23:47.
+On a 8 positions pour le pseudo P_4.
+Position initiale : (3,18) heure 07:16.
+Position finale : (44,47) heure 21:07.
+On a 9 positions pour le pseudo P_3.
+Position initiale : (33,49) heure 04:50.
+Position finale : (40,19) heure 22:48.
+On a 7 positions pour le pseudo P_2.
+Position initiale : (33,50) heure 01:08.
+Position finale : (44,37) heure 19:06.
+Il y a 3 emplacements.
+hopital en (10,8)
+laverie en (5,36)
+Atazone en (14,31)
+P_0 est le pseudo de Donia BERTHELEIN.
+P_2 est le pseudo de Manon JACQUIES.
+P_4 est le pseudo de Laurie MALAISEL.
+P_3 est le pseudo de Geraldine HEQUEVILLE.

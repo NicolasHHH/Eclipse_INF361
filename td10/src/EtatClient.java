@@ -1,0 +1,3 @@
+public enum EtatClient {
+	NON_CONNECTE, RECU_CONNECT, CONNECT_ENVOYE, EST_CONNECTE;
+}

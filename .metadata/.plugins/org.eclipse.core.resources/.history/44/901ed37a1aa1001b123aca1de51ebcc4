@@ -1,0 +1,45 @@
+import maclib.GrafPort;
+
+public class AffichageHexadecimal {
+
+  /**
+   * Indique si on doit allumer ou non tel ou tel segment pour afficher le
+   * chiffre voulu.
+   * 
+   * @param segment
+   *          le segment en question
+   * @param chiffre
+   *          le chiffre hexadecimal que l'on veut afficher
+   * @return true s'il faut allumer ce segment et false sinon
+   */
+  public static boolean allumeSegment(int segment, int chiffre) {
+    return false; // MODIFIER pour la valeur de retour correcte
+  }
+
+  /**
+   * Affiche un chiffre hexadecimal dans un afficheur, NE PAS MODIFIER.
+   * 
+   * @param chiffre
+   *          le chiffre que l'on veut afficher
+   * @param g
+   *          le GrafPort dans lequel on dessine l'afficheur
+   */
+  public static void afficher(int chiffre, GrafPort g) {
+    for (int segment = 0; segment < Afficheur7Segments.NOMBRE_SEGMENTS; ++segment) {
+      if (allumeSegment(segment, chiffre)) {
+        Afficheur7Segments.allumerSegment(segment, g);
+      } else {
+        Afficheur7Segments.eteindreSegment(segment, g);
+      }
+    }
+  }
+
+  // NE PAS MODIFIER
+  public static void main(String[] args) {
+    // on construit 16 afficheurs, un pour chaque chiffre hexadecimal.
+    for (int chiffre = 0; chiffre < 16; ++chiffre) {
+      afficher(chiffre, Afficheur7Segments.construireAfficheur());
+    }
+  }
+
+}

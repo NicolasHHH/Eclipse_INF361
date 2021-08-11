@@ -1,0 +1,85 @@
+import tc.TC;
+
+public class Chat extends Client {
+
+	private EtatClient etatCourant = EtatClient.NON_CONNECTE;
+	private String correspondant = null;
+	private int num_envoi = 0;
+	private int num_reception = 0;
+
+	public Chat(String pseudo) {
+		super(pseudo);
+		afficher("Entrez Hello pour commencer\n" + getPseudo() + ":");
+	}
+
+	public Chat(String pseudo, Dialogue d) {
+		super(pseudo, d);
+		afficher("Entrez Hello pour commencer\n" + getPseudo() + ":");
+	}
+
+	@Override
+	public void recevoirDuCanal(String ligne) {
+		Message m = new Message(ligne);
+		if (m.getType() == TypeMessage.__WRONG__)
+			return;
+		switch (this.etatCourant) {
+		case NON_CONNECTE:
+			
+			Message mes = new Message(ligne); 
+			if ( mes.getDestinataire().equals(this.getPseudo()) || mes.getDestinataire().equals("__ALL__") ) {
+				if(mes.getType() == TypeMessage.__HELLO__ ||mes.getType() == TypeMessage.__MESSAGE__)
+					afficher(ligne);
+			}
+			break;
+		case RECU_CONNECT:
+			// ici traitement de ce cas
+			break;
+		case CONNECT_ENVOYE:
+			// ici traitement de ce cas
+			break;
+		case EST_CONNECTE:
+			// ici traitement de ce cas
+			break;
+		default:
+			throw new AssertionError("cas non prévu dans recevoirDuCanal : " + this.etatCourant);
+		}
+	}
+
+	@Override
+	public void recevoirDuClavier(String ligne) {
+		switch (this.etatCourant) {
+		case NON_CONNECTE:
+			String[] coup = TC.motsDeChaine(ligne);
+			if (coup[0].equals("Connecte")) {
+				this.correspondant = coup[1];
+			}
+			
+			if (ligne.compareTo("Hello")==0) {
+				envoyer(this.getPseudo()+";__ALL__;__HELLO__");
+			}
+			else {
+				envoyer(this.getPseudo()+";__ALL__;__MESSAGE__;0;0;"+ligne);
+			}
+			
+			break;
+		case RECU_CONNECT:
+			
+			break;
+		case CONNECT_ENVOYE:
+			// ici traitement de ce cas
+			break;
+		case EST_CONNECTE:
+			// ici traitement de ce cas
+			break;
+		default:
+			throw new AssertionError("cas non prévu dans recevoirDuClavier : " + this.etatCourant);
+		}
+	}
+
+	public static void main(String[] args) {
+		new Canal_361(new Chat("Alice", new Dialogue(400, 0))).lancer();
+		new Canal_361(new Chat("Bob", new Dialogue(400, 0))).lancer();
+		new Canal_361(new SimpleClient("Chuck")).lancer();
+	}
+
+}

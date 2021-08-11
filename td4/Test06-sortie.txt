@@ -1,0 +1,14 @@
+Credit_du_Tigre
+12
+123112 Charles_de_Coelacanthe 5.00 Euros 150
+321122 Alice_Dessinges 2156.73 Livres 200
+234112 Hippolyte_Megatherium 1003.23 Yuans 1000
+1000000002 Proxy_1 10000.00 Euros 400
+1010101012 Distributeur_A 0.00 Rouble 300
+78712 Charles_de_Coelacanthe 15.00 Euros 25
+425122 Alice_Dessinges 215.13 Livres 400
+2341 Herbert_Pasperdu 10366.23 Yuans 350
+100004 Proxy_4 10000.00 Euros 600
+101012 Alain_Courbe 0.00 Rouble 250
+235541 Pauline_Deschants 10366.23 Yuans 1000
+10101452 Distributeur_B 0.00 Rouble 300

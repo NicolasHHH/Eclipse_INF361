@@ -1,0 +1,13 @@
+-- Comptes : 
+7654321 Razvan_Barbaud 178.04 Roubles 150
+2222222 Al_Coverer_Corp 3000.00 Dollars 100
+
+-- Creation de cheque et de TIP
+CHEQUE de 100 Euros et 0 centime de Roger_Plusdebiere
+TIP de 2346 Dollars et 98 cents de Jessica_Scrout a destination de la compagnie Al_Coverer_Corp
+
+-- Test deposer : attend false, true, true
+false, true, true
+
+Soldes des comptes
+9270.04 Roubles,  5346.98 Dollars

@@ -1,0 +1,27 @@
+Il y a 8 personnes.
+On a 12 positions pour le pseudo P_1 aux instants [19:06, 04:50, 10:25, 19:24, 20:28, 16:36, 21:07, 12:58, 23:47, 07:52, 05:14, 07:17].
+On a 8 positions pour le pseudo P_8 aux instants [16:36, 20:28, 02:48, 21:07, 10:25, 07:16, 19:06, 20:43].
+On a 19 positions pour le pseudo P_7 aux instants [05:14, 14:03, 16:36, 19:06, 11:28, 11:54, 04:50, 12:58, 02:48, 19:24, 12:21, 20:43, 23:47, 07:16, 21:07, 16:22, 13:33, 07:52, 07:17].
+On a 21 positions pour le pseudo P_0 aux instants [13:33, 01:08, 19:06, 07:17, 09:20, 10:25, 07:52, 16:36, 12:58, 05:14, 16:22, 19:24, 07:16, 04:10, 14:03, 02:48, 20:43, 11:54, 20:28, 12:21, 17:38].
+On a 9 positions pour le pseudo P_13 aux instants [04:10, 13:33, 12:21, 23:47, 14:03, 16:22, 07:17, 10:25, 04:50].
+On a 2 positions pour le pseudo P_3 aux instants [02:48, 17:38].
+On a 6 positions pour le pseudo P_5 aux instants [01:08, 23:47, 10:25, 07:52, 07:17, 04:10].
+On a 4 positions pour le pseudo P_11 aux instants [23:47, 13:33, 16:36, 19:06].
+Il y a 9 emplacements.
+station_Lozere en (46,38)
+restaurant en (0,33)
+garage en (20,27)
+agence en (2,31)
+bistrot en (29,25)
+chaufferie en (2,48)
+la_cabane_au_fond_des_bois en (28,49)
+Magnan en (37,38)
+laverie en (6,3)
+P_0 est le pseudo de FABIO JACQUIES.
+P_1 est le pseudo de ALIZEE HESLVIN.
+P_13 est le pseudo de GERALDE MALAISEL.
+P_3 est le pseudo de GEORGY STIGNY.
+P_5 est le pseudo de LAURIE DANTHEVILLE.
+P_8 est le pseudo de MAXIME QUETEVILLE.
+P_7 est le pseudo de CHLOE OLAIE.
+P_11 est le pseudo de FABIO FIMGERE.

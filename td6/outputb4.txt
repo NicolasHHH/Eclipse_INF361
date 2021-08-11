@@ -1,0 +1,99 @@
+Il y a 8 personnes.
+On a 12 positions pour le pseudo P_1 aux instants [19:06, 04:50, 10:25, 19:24, 20:28, 16:36, 21:07, 12:58, 23:47, 07:52, 05:14, 07:17].
+On a 8 positions pour le pseudo P_8 aux instants [16:36, 20:28, 02:48, 21:07, 10:25, 07:16, 19:06, 20:43].
+On a 19 positions pour le pseudo P_7 aux instants [05:14, 14:03, 16:36, 19:06, 11:28, 11:54, 04:50, 12:58, 02:48, 19:24, 12:21, 20:43, 23:47, 07:16, 21:07, 16:22, 13:33, 07:52, 07:17].
+On a 21 positions pour le pseudo P_0 aux instants [13:33, 01:08, 19:06, 07:17, 09:20, 10:25, 07:52, 16:36, 12:58, 05:14, 16:22, 19:24, 07:16, 04:10, 14:03, 02:48, 20:43, 11:54, 20:28, 12:21, 17:38].
+On a 9 positions pour le pseudo P_13 aux instants [04:10, 13:33, 12:21, 23:47, 14:03, 16:22, 07:17, 10:25, 04:50].
+On a 2 positions pour le pseudo P_3 aux instants [02:48, 17:38].
+On a 6 positions pour le pseudo P_5 aux instants [01:08, 23:47, 10:25, 07:52, 07:17, 04:10].
+On a 4 positions pour le pseudo P_11 aux instants [23:47, 13:33, 16:36, 19:06].
+Il y a 9 emplacements.
+station_Lozere en (46,38)
+La position de P_1 la plus proche de station_Lozere est (44,37) heure 20:28.
+La position de P_8 la plus proche de station_Lozere est (44,38) heure 10:25.
+La position de P_7 la plus proche de station_Lozere est (44,37) heure 11:28.
+La position de P_0 la plus proche de station_Lozere est (45,37) heure 09:20.
+La position de P_13 la plus proche de station_Lozere est (44,36) heure 14:03.
+La position de P_3 la plus proche de station_Lozere est (31,49) heure 17:38.
+La position de P_5 la plus proche de station_Lozere est (43,37) heure 07:17.
+La position de P_11 la plus proche de station_Lozere est (44,48) heure 19:06.
+restaurant en (0,33)
+La position de P_1 la plus proche de restaurant est (2,18) heure 16:36.
+La position de P_8 la plus proche de restaurant est (3,18) heure 07:16.
+La position de P_7 la plus proche de restaurant est (1,25) heure 07:16.
+La position de P_0 la plus proche de restaurant est (1,25) heure 04:10.
+La position de P_13 la plus proche de restaurant est (2,18) heure 16:22.
+La position de P_3 la plus proche de restaurant est (3,8) heure 02:48.
+La position de P_5 la plus proche de restaurant est (3,18) heure 04:10.
+La position de P_11 la plus proche de restaurant est (4,8) heure 23:47.
+garage en (20,27)
+La position de P_1 la plus proche de garage est (21,23) heure 12:58.
+La position de P_8 la plus proche de garage est (20,24) heure 20:43.
+La position de P_7 la plus proche de garage est (20,24) heure 12:58.
+La position de P_0 la plus proche de garage est (20,23) heure 16:36.
+La position de P_13 la plus proche de garage est (20,22) heure 10:25.
+La position de P_3 la plus proche de garage est (31,49) heure 17:38.
+La position de P_5 la plus proche de garage est (3,18) heure 04:10.
+La position de P_11 la plus proche de garage est (30,49) heure 13:33.
+agence en (2,31)
+La position de P_1 la plus proche de agence est (2,18) heure 16:36.
+La position de P_8 la plus proche de agence est (3,18) heure 07:16.
+La position de P_7 la plus proche de agence est (1,25) heure 07:16.
+La position de P_0 la plus proche de agence est (1,25) heure 04:10.
+La position de P_13 la plus proche de agence est (2,18) heure 16:22.
+La position de P_3 la plus proche de agence est (3,8) heure 02:48.
+La position de P_5 la plus proche de agence est (3,18) heure 04:10.
+La position de P_11 la plus proche de agence est (4,8) heure 23:47.
+bistrot en (29,25)
+La position de P_1 la plus proche de bistrot est (25,21) heure 07:52.
+La position de P_8 la plus proche de bistrot est (20,24) heure 20:43.
+La position de P_7 la plus proche de bistrot est (26,21) heure 19:24.
+La position de P_0 la plus proche de bistrot est (26,21) heure 05:14.
+La position de P_13 la plus proche de bistrot est (20,22) heure 10:25.
+La position de P_3 la plus proche de bistrot est (31,49) heure 17:38.
+La position de P_5 la plus proche de bistrot est (30,49) heure 23:47.
+La position de P_11 la plus proche de bistrot est (30,49) heure 13:33.
+chaufferie en (2,48)
+La position de P_1 la plus proche de chaufferie est (31,49) heure 04:50.
+La position de P_8 la plus proche de chaufferie est (30,48) heure 20:28.
+La position de P_7 la plus proche de chaufferie est (1,25) heure 07:16.
+La position de P_0 la plus proche de chaufferie est (1,25) heure 04:10.
+La position de P_13 la plus proche de chaufferie est (30,50) heure 13:33.
+La position de P_3 la plus proche de chaufferie est (31,49) heure 17:38.
+La position de P_5 la plus proche de chaufferie est (30,49) heure 23:47.
+La position de P_11 la plus proche de chaufferie est (30,49) heure 13:33.
+la_cabane_au_fond_des_bois en (28,49)
+La position de P_1 la plus proche de la_cabane_au_fond_des_bois est (31,49) heure 04:50.
+La position de P_8 la plus proche de la_cabane_au_fond_des_bois est (30,48) heure 20:28.
+La position de P_7 la plus proche de la_cabane_au_fond_des_bois est (30,49) heure 14:03.
+La position de P_0 la plus proche de la_cabane_au_fond_des_bois est (31,49) heure 01:08.
+La position de P_13 la plus proche de la_cabane_au_fond_des_bois est (30,50) heure 13:33.
+La position de P_3 la plus proche de la_cabane_au_fond_des_bois est (31,49) heure 17:38.
+La position de P_5 la plus proche de la_cabane_au_fond_des_bois est (30,49) heure 23:47.
+La position de P_11 la plus proche de la_cabane_au_fond_des_bois est (30,49) heure 13:33.
+Magnan en (37,38)
+La position de P_1 la plus proche de Magnan est (44,37) heure 20:28.
+La position de P_8 la plus proche de Magnan est (44,38) heure 10:25.
+La position de P_7 la plus proche de Magnan est (44,37) heure 11:28.
+La position de P_0 la plus proche de Magnan est (37,40) heure 12:21.
+La position de P_13 la plus proche de Magnan est (44,36) heure 14:03.
+La position de P_3 la plus proche de Magnan est (31,49) heure 17:38.
+La position de P_5 la plus proche de Magnan est (43,37) heure 07:17.
+La position de P_11 la plus proche de Magnan est (44,48) heure 19:06.
+laverie en (6,3)
+La position de P_1 la plus proche de laverie est (8,5) heure 10:25.
+La position de P_8 la plus proche de laverie est (9,5) heure 02:48.
+La position de P_7 la plus proche de laverie est (8,6) heure 16:36.
+La position de P_0 la plus proche de laverie est (8,5) heure 19:06.
+La position de P_13 la plus proche de laverie est (8,5) heure 12:21.
+La position de P_3 la plus proche de laverie est (3,8) heure 02:48.
+La position de P_5 la plus proche de laverie est (8,4) heure 10:25.
+La position de P_11 la plus proche de laverie est (8,5) heure 16:36.
+P_0 est le pseudo de FABIO JACQUIES.
+P_1 est le pseudo de ALIZEE HESLVIN.
+P_13 est le pseudo de GERALDE MALAISEL.
+P_3 est le pseudo de GEORGY STIGNY.
+P_5 est le pseudo de LAURIE DANTHEVILLE.
+P_8 est le pseudo de MAXIME QUETEVILLE.
+P_7 est le pseudo de CHLOE OLAIE.
+P_11 est le pseudo de FABIO FIMGERE.

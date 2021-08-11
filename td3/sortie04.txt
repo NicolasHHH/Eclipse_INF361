@@ -1,0 +1,10 @@
+-- Conversions : 
+133.99 Euros -> 160.78 Dollars
+1.49 Livre -> 155.71 Roubles
+22.89 Yuans -> 2.92 Euros
+0.24 Bitcoin -> 15157.89 Dollars
+0.24 Bitcoin -> 12631.57 Euros
+16.32 Euros -> 14.19 Livres
+0.39 Dollar -> 0.39 Dollar true
+1.49 Livre -> 13.39 Yuans
+2.37 Euros -> 17.68 Krones

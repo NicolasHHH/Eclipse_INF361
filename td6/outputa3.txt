@@ -1,0 +1,13 @@
+Il y a 4 personnes.
+On a 12 positions pour le pseudo P_0 aux instants [19:06, 04:50, 10:25, 19:24, 20:28, 16:36, 21:07, 12:58, 23:47, 07:52, 05:14, 07:17].
+On a 8 positions pour le pseudo P_4 aux instants [16:36, 20:28, 12:58, 21:07, 10:25, 07:16, 19:06, 20:43].
+On a 9 positions pour le pseudo P_3 aux instants [05:14, 14:03, 16:36, 19:06, 11:28, 11:54, 04:50, 12:58, 22:48].
+On a 7 positions pour le pseudo P_2 aux instants [14:03, 11:28, 13:33, 04:10, 19:06, 14:03, 01:08].
+Il y a 3 emplacements.
+hopital en (10,8)
+laverie en (5,36)
+Atazone en (14,31)
+P_0 est le pseudo de Donia BERTHELEIN.
+P_2 est le pseudo de Manon JACQUIES.
+P_4 est le pseudo de Laurie MALAISEL.
+P_3 est le pseudo de Geraldine HEQUEVILLE.

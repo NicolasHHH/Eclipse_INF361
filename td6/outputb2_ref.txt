@@ -1,0 +1,43 @@
+Il y a 8 personnes.
+On a 12 positions pour le pseudo P_1.
+Position initiale : (31,49) heure 04:50.
+Position finale : (40,18) heure 23:47.
+On a 8 positions pour le pseudo P_8.
+Position initiale : (9,5) heure 02:48.
+Position finale : (44,47) heure 21:07.
+On a 19 positions pour le pseudo P_7.
+Position initiale : (40,19) heure 02:48.
+Position finale : (49,42) heure 23:47.
+On a 21 positions pour le pseudo P_0.
+Position initiale : (31,49) heure 01:08.
+Position finale : (24,44) heure 20:43.
+On a 9 positions pour le pseudo P_13.
+Position initiale : (5,8) heure 04:10.
+Position finale : (44,47) heure 23:47.
+On a 2 positions pour le pseudo P_3.
+Position initiale : (3,8) heure 02:48.
+Position finale : (31,49) heure 17:38.
+On a 6 positions pour le pseudo P_5.
+Position initiale : (4,7) heure 01:08.
+Position finale : (30,49) heure 23:47.
+On a 4 positions pour le pseudo P_11.
+Position initiale : (30,49) heure 13:33.
+Position finale : (4,8) heure 23:47.
+Il y a 9 emplacements.
+station_Lozere en (46,38)
+restaurant en (0,33)
+garage en (20,27)
+agence en (2,31)
+bistrot en (29,25)
+chaufferie en (2,48)
+la_cabane_au_fond_des_bois en (28,49)
+Magnan en (37,38)
+laverie en (6,3)
+P_0 est le pseudo de FABIO JACQUIES.
+P_1 est le pseudo de ALIZEE HESLVIN.
+P_13 est le pseudo de GERALDE MALAISEL.
+P_3 est le pseudo de GEORGY STIGNY.
+P_5 est le pseudo de LAURIE DANTHEVILLE.
+P_8 est le pseudo de MAXIME QUETEVILLE.
+P_7 est le pseudo de CHLOE OLAIE.
+P_11 est le pseudo de FABIO FIMGERE.

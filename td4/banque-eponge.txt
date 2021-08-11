@@ -1,0 +1,8 @@
+Caisse_d'Eponge
+6
+312398740 Jean-Francois_Poireau 98712.01 Euros 10
+298172330 Kiran_Kohlrabi 12.01 Dollars 200
+198172380 Lola_Mouchez 12937.72 Dollars 300
+987123120 Marla_Singer 23487.33 Euros 1000
+1000000000 Proxy_1 10000.00 Yuans 150
+1010101010 Distributeur_CdE-1 0.00 Euro 500

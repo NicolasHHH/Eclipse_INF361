@@ -1,0 +1,10 @@
+Il y a 4 personnes.
+On a 12 positions pour le pseudo P_0.
+On a 8 positions pour le pseudo P_4.
+On a 9 positions pour le pseudo P_3.
+On a 7 positions pour le pseudo P_2.
+Il y a 3 emplacements.
+P_0 est le pseudo de Donia BERTHELEIN.
+P_2 est le pseudo de Manon JACQUIES.
+P_4 est le pseudo de Laurie MALAISEL.
+P_3 est le pseudo de Geraldine HEQUEVILLE.

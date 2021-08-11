@@ -1,0 +1,18 @@
+Il y a 8 personnes.
+On a 12 positions pour le pseudo P_1.
+On a 8 positions pour le pseudo P_8.
+On a 19 positions pour le pseudo P_7.
+On a 21 positions pour le pseudo P_0.
+On a 9 positions pour le pseudo P_13.
+On a 2 positions pour le pseudo P_3.
+On a 6 positions pour le pseudo P_5.
+On a 4 positions pour le pseudo P_11.
+Il y a 9 emplacements.
+P_0 est le pseudo de FABIO JACQUIES.
+P_1 est le pseudo de ALIZEE HESLVIN.
+P_13 est le pseudo de GERALDE MALAISEL.
+P_3 est le pseudo de GEORGY STIGNY.
+P_5 est le pseudo de LAURIE DANTHEVILLE.
+P_8 est le pseudo de MAXIME QUETEVILLE.
+P_7 est le pseudo de CHLOE OLAIE.
+P_11 est le pseudo de FABIO FIMGERE.

@@ -1,0 +1,45 @@
+
+public class PlacePublique extends Client {
+
+	public PlacePublique(String pseudo) {
+		super(pseudo);
+		afficher(getPseudo() + ":");
+	}
+
+	public PlacePublique(String pseudo, Dialogue d) {
+		super(pseudo, d);
+		afficher(getPseudo() + ":");
+	}
+
+	@Override
+	public void recevoirDuCanal(String ligne) {
+		// on affiche simplement ce qui arrive du canal
+		// afficher("-- " + ligne + " --");
+		Message mes = new Message(ligne);
+		
+		if (mes.getType()!= TypeMessage.__WRONG__) {
+			if (mes.getDestinataire() == "__ALL__" ||  mes.getDestinataire() == this.getPseudo()) {
+				afficher(ligne);
+			}	
+		}
+	
+	}
+
+	@Override
+	public void recevoirDuClavier(String ligne) {
+		// on envoie simplement ce qui arrive du clavier
+		if (ligne.compareTo("Hello")==0) {
+			envoyer(this.getPseudo()+";__ALL__"+"__HELLO__");
+		}
+		else {
+			envoyer(this.getPseudo()+";__ALL__;__MESSAGE__;0;0;"+ligne);
+		}
+		// envoyer("++ " + ligne + " ++");
+	}
+
+	public static void main(String[] args) {
+		new Canal_361(new PlacePublique("Jennie")).lancer();
+		 new Canal_361(new SimpleClient("Lisa", new Dialogue(400, 0))).lancer();
+	}
+	
+}

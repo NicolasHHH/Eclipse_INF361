@@ -1,0 +1,19 @@
+--Test ajouterCompte : attend true, false, false
+true, false, false
+
+--Test trouverCompte : attend null, 1008 toto8 24.25 Euros
+null, 1008 toto8 24.25 Euros 600
+
+--Test affichage de la banque :
+Banque_de_Fou
+10
+987654321 Charles_Ragondin 1234.56 Euros 400
+1000 toto0 0.25 Euro 200
+1001 toto1 3.25 Euros 250
+1002 toto2 6.25 Euros 300
+1003 toto3 9.25 Euros 350
+1004 toto4 12.25 Euros 400
+1005 toto5 15.25 Euros 450
+1006 toto6 18.25 Euros 500
+1007 toto7 21.25 Euros 550
+1008 toto8 24.25 Euros 600

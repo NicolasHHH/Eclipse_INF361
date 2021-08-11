@@ -1,0 +1,125 @@
+import tc.TC;
+
+public class Chat extends Client {
+
+	private EtatClient etatCourant = EtatClient.NON_CONNECTE;
+	private String correspondant = null;
+	private int num_envoi = 0;
+	private int num_reception = 0;
+
+	public Chat(String pseudo) {
+		super(pseudo);
+		afficher("Entrez Hello pour commencer\n" + getPseudo() + ":");
+	}
+
+	public Chat(String pseudo, Dialogue d) {
+		super(pseudo, d);
+		afficher("Entrez Hello pour commencer\n" + getPseudo() + ":");
+	}
+
+	@Override
+	public void recevoirDuCanal(String ligne) {
+		Message m = new Message(ligne);
+		if (m.getType() == TypeMessage.__WRONG__)
+			return;
+		switch (this.etatCourant) {
+		case NON_CONNECTE:
+			Message mes = new Message(ligne); 
+			if ( mes.getDestinataire().equals(this.getPseudo()) || mes.getDestinataire().equals("__ALL__") ) {
+				if(mes.getType() == TypeMessage.__HELLO__ ||mes.getType() == TypeMessage.__MESSAGE__) {
+					afficher(ligne);
+				}
+				else if(mes.getType() == TypeMessage.__CONNECT__) {
+					this.etatCourant = EtatClient.RECU_CONNECT;
+					this.correspondant = m.getExpediteur();
+				}
+				
+			}
+			break;
+		case RECU_CONNECT:
+			if ( m.getDestinataire().equals(this.getPseudo()) && m.getExpediteur().equals(this.correspondant) ) {
+				afficher(ligne);
+			}
+			if(m.getType() == TypeMessage.__CONNECT__ && m.getDestinataire().equals(this.getPseudo())) {
+				envoyer(this.getPseudo()+";"+this.correspondant+";__END__");
+			}
+			if(m.getType() == TypeMessage.__END__ && m.getDestinataire().equals(this.getPseudo())) {
+				this.correspondant = null;
+				this.etatCourant = EtatClient.NON_CONNECTE;
+			}
+			// ici traitement de ce cas
+			break;
+		case CONNECT_ENVOYE:
+			if ( m.getDestinataire().equals(this.getPseudo()) && m.getExpediteur().equals(this.correspondant) ) {
+				afficher(ligne);
+			}
+			else if ( m.getDestinataire().equals(this.getPseudo()) && m.getType()==TypeMessage.__CONNECT__) {
+				envoyer(this.getPseudo()+";"+m.getExpediteur()+";__END__");
+			}
+			break;
+		case EST_CONNECTE:
+			// ici traitement de ce cas
+			if ( m.getDestinataire().equals(this.getPseudo()) && m.getExpediteur().equals(this.correspondant) ) {
+				afficher(ligne);
+			}
+			break;
+		default:
+			throw new AssertionError("cas non prévu dans recevoirDuCanal : " + this.etatCourant);
+		}
+	}
+
+	@Override
+	public void recevoirDuClavier(String ligne) {
+		switch (this.etatCourant) {
+		case NON_CONNECTE:
+			String[] coup = TC.motsDeChaine(ligne);
+			if (coup[0].equals("Connecte")) {
+				this.correspondant = coup[1];
+				envoyer(this.getPseudo()+";"+this.correspondant+";__CONNECT__");
+				this.etatCourant= EtatClient.CONNECT_ENVOYE;
+			}
+			else if (ligne.compareTo("Hello")==0) {
+				envoyer(this.getPseudo()+";__ALL__;__HELLO__");
+			}
+			else {
+				envoyer(this.getPseudo()+";__ALL__;__MESSAGE__;0;0;"+ligne);
+			}
+			
+			break;
+		case RECU_CONNECT:
+			String[] Recu= TC.motsDeChaine(ligne);
+			if (Recu[0].equals("Refuse") && this.correspondant == Recu[1]) {
+				envoyer(this.getPseudo()+";"+this.correspondant+";__END__");
+				this.correspondant = null;
+				this.etatCourant= EtatClient.NON_CONNECTE;
+			}
+			else if (Recu[0].equals("Accepte") && this.correspondant == Recu[1]) {
+				envoyer(this.getPseudo()+";"+this.correspondant+";__ACCEPT__");
+				this.etatCourant= EtatClient.EST_CONNECTE;//
+			}
+			break;
+		case CONNECT_ENVOYE:
+			// ici traitement de ce cas
+			String[] coup2 = TC.motsDeChaine(ligne);
+			if (coup2[0].equals("Fin") && this.correspondant == coup2[1]) {
+				envoyer(this.getPseudo()+";"+this.correspondant+";__END__");
+				this.correspondant = null;
+				this.etatCourant= EtatClient.NON_CONNECTE;
+			}
+			
+			break;
+		case EST_CONNECTE:
+			// ici traitement de ce cas
+			break;
+		default:
+			throw new AssertionError("cas non prévu dans recevoirDuClavier : " + this.etatCourant);
+		}
+	}
+
+	public static void main(String[] args) {
+		new Canal_361(new Chat("Alice", new Dialogue(400, 0))).lancer();
+		new Canal_361(new Chat("Bob", new Dialogue(400, 0))).lancer();
+		new Canal_361(new SimpleClient("Chuck")).lancer();
+	}
+
+}

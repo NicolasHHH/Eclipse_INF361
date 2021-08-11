@@ -1,0 +1,23 @@
+=== test plusProche ===
+plus proche de (355,311) = (345,311) heure 16:82
+plus proche de (363,302) = (363,302) heure 06:70
+plus proche de (30,310) = (30,280) heure 15:52
+plus proche de (185,311) = (345,311) heure 16:82
+plus proche de (345,771) = (185,771) heure 06:16
+plus proche de (265,541) = (185,771) heure 06:16
+=== test plusProche ===
+plus proche de (355,311) = (345,311) heure 16:82
+plus proche de (363,302) = (363,302) heure 06:70
+plus proche de (30,310) = (345,311) heure 16:82
+plus proche de (185,311) = (345,311) heure 16:82
+plus proche de (345,771) = (345,311) heure 16:82
+plus proche de (265,541) = (345,311) heure 16:82
+=== test plusProche ===
+plus proche de (355,311) = (30,280) heure 15:52
+plus proche de (363,302) = (30,280) heure 15:52
+plus proche de (30,310) = (30,280) heure 15:52
+plus proche de (185,311) = (30,280) heure 15:52
+plus proche de (345,771) = (185,771) heure 06:16
+plus proche de (265,541) = (185,771) heure 06:16
+=== test plusProche ===
+plus proche de (363,302) = null

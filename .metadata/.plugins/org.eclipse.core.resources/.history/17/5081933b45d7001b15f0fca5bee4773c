@@ -1,0 +1,18 @@
+
+public class quizz {
+	public static void echange(int[] a, int[] b) {
+		a[0]=3;
+		int[] u = a;
+		a=b;
+		b=u;
+		a[1]=6;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][]tt = new int[][]{ { 8, 7 }, { 2, 1 }, { 6, 5 }, { 4, 3 } };
+		echange(tt[1], tt[3]);
+		System.out.println(tt[1][0]+" "+tt[1][1]+" "+tt[3][0]+" "+tt[3][1]);
+	}
+
+}

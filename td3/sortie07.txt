@@ -1,0 +1,14 @@
+-- test a1.plus(a2) : attend 123.88 Euros
+123.88 Euros
+-- test a1.plus(a3) : attend 934.06 Euros
+934.06 Euros
+-- test a3.plus(a4) : attend 1025.00 Dollars
+1025.00 Dollars
+--test a4.plus(a2) : attend 52.78 Dollars
+52.78 Dollars
+-- test a2.moins(a1) : attend null
+null
+--test a3.moins(a1) : attend 879.13 Dollars
+879.13 Dollars
+--test a4.moins(a1) : attend null
+null
